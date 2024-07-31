@@ -75,7 +75,7 @@ export default function RootLayout({
                     "igram",
                     "igram.io",
                   ],
-                  url: "https://DLFast.app/en",
+                  url: "https://dlfast.vercel.app",
                 },
                 {
                   "@type": "WebPage",
@@ -93,15 +93,15 @@ export default function RootLayout({
                   inLanguage: "th",
                   description:
                     "DLFast is an tool to help you with Download Instagram Videos, Reels, Photos, IGTV & Albums. It&#039;s easy to use on any device, mobile, tablet, or computer.",
-                  url: "https://DLFast.app/en",
+                  url: "https://dlfast.vercel.app",
                 },
                 {
                   "@type": "Organization",
                   name: "DLFast",
                   alternateName: "Instagram downloader",
-                  url: "https://DLFast.app",
-                  email: "support@DLFast.app",
-                  logo: "https://DLFast.app/images/logo.png",
+                  url: "https://dlfast.vercel.app",
+                  email: "yadusurya666@gmail.com",
+                  logo: "https://dlfast.vercel.app/images/logo.png",
                 },
                 {
                   "@type": "WebApplication",
@@ -112,9 +112,13 @@ export default function RootLayout({
                     "DLFast APP",
                     "igram",
                     "igram.io",
+                    "snapinsta",
+                    "instasanp",
+                    "FastDl",
+                    "FastDl APP"
                   ],
-                  url: "https://DLFast.app/en",
-                  image: "https://DLFast.app/icon-192.png",
+                  url: "https://dlfast.vercel.app",
+                  image: "https://dlfast.vercel.app/icon-192.png",
                   operatingSystem: "Windows, Linux, iOS, Android, OSX, macOS",
                   applicationCategory: "UtilitiesApplication",
                   featureList: [
