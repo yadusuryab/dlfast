@@ -58,8 +58,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <Script
+      <head>
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -140,12 +140,14 @@ export default function RootLayout({
               ],
             }),
           }}
-
         />
         <link rel="canonical" href="https://dlfast.vercel.app"></link>
-        <link rel="alternate" hrefLang="x-default" href="https://dlfast.vercel.app"/>
-
-      </Head>
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://dlfast.vercel.app"
+        />
+      </head>
 
       <body className={inter.className}>
         <ThemeProvider
