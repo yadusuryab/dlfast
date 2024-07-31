@@ -6,14 +6,18 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Downloader from "./_components/Downloader";
 import Footer from "./_components/Footer";
 import Head from "next/head";
-import open from './opengraph-image.png'
-import twitter from './twitter-image.png'
+import open from "../public/opengraph-image.png";
+import logo from "../public/apple-touch-icon.png";
+import android from "../public/android-chrome-192x192.png";
+
+import twitter from "./twitter-image.png";
 import { SpeakableSpecification, WithContext } from "schema-dts";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dlfast.vercel.app"),
   title:
     "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
   description:
@@ -29,9 +33,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url:open.toString(),
-        width: 800,
-        height: 600,
+        url: open.src,
+        width: open.width,
+        height: open.height,
         alt: "DLFast - Instagram Downloader",
       },
     ],
@@ -42,7 +46,14 @@ export const metadata: Metadata = {
       "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
     description:
       "DLFast is a tool to help you with downloading Instagram Videos, Reels, Photos, IGTV & Albums. It's easy to use on any device, mobile, tablet, or computer.",
-    images: [twitter.toString()],
+    images: [
+      {
+        url: open.src,
+        width: open.width,
+        height: open.height,
+        alt: "DLFast - Instagram Downloader",
+      },
+    ],
   },
   appleWebApp: {
     capable: true,
@@ -103,7 +114,7 @@ export default function RootLayout({
                   alternateName: "Instagram downloader",
                   url: "https://dlfast.vercel.app",
                   email: "yadusurya666@gmail.com",
-                  logo: "https://dlfast.vercel.app/images/logo.png",
+                  logo: logo.src,
                 },
                 {
                   "@type": "WebApplication",
@@ -117,10 +128,10 @@ export default function RootLayout({
                     "snapinsta",
                     "instasanp",
                     "FastDl",
-                    "FastDl APP"
+                    "FastDl APP",
                   ],
                   url: "https://dlfast.vercel.app",
-                  image: "https://dlfast.vercel.app/icon-192.png",
+                  image: android.src,
                   operatingSystem: "Windows, Linux, iOS, Android, OSX, macOS",
                   applicationCategory: "UtilitiesApplication",
                   featureList: [
