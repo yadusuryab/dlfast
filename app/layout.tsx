@@ -157,6 +157,7 @@ export default function RootLayout({
           hrefLang="x-default"
           href="https://dlfast.vercel.app"
         />
+        <meta name="google-site-verification" content="jVW2L3Lpp6z747dZtOCYX4iAX7UE0gCp8xWmrVNZihc" />
       </head>
 
       <body className={inter.className}>
