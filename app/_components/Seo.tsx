@@ -19,9 +19,6 @@ const SEO: React.FC<SeoProps> = ({ pageTitle, pageDescription, imageUrl }) => (
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <meta property="og:url" content="https://dlfast.vercel.app" />
-        <meta property="og:image" content={imageUrl || "/images/DLFast.png"} />
-        <meta property="og:image:width" content="180" />
-        <meta property="og:image:height" content="180" />
         <meta property="og:locale" content="en" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="DLFast" />
@@ -30,11 +27,7 @@ const SEO: React.FC<SeoProps> = ({ pageTitle, pageDescription, imageUrl }) => (
         <meta property="twitter:url" content="https://dlfast.vercel.app" />
         <meta property="twitter:title" content={pageTitle} />
         <meta property="twitter:description" content={pageDescription} />
-        <meta property="twitter:image" content={imageUrl || "/images/DLFast.png"} />
 
-        <link rel="icon" href="/favicon.ico" sizes="32x32" />
-        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
