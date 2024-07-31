@@ -16,23 +16,6 @@ export const metadata: Metadata = {
     "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
   description:
     "DLFast is a tool to help you with downloading Instagram Videos, Reels, Photos, IGTV & Albums. It's easy to use on any device, mobile, tablet, or computer.",
-  openGraph: {
-    title:
-      "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
-    description:
-      "DLFast is a tool to help you with downloading Instagram Videos, Reels, Photos, IGTV & Albums. It's easy to use on any device, mobile, tablet, or computer.",
-    url: "https://dlfast.vercel.app",
-    siteName: "DLFast",
-    locale: "en",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title:
-      "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
-    description:
-      "DLFast is a tool to help you with downloading Instagram Videos, Reels, Photos, IGTV & Albums. It's easy to use on any device, mobile, tablet, or computer.",
-  },
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
