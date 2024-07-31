@@ -4,7 +4,6 @@ import { handleDownload } from "../Api/insta-api";
 import { Button } from "@/components/ui/button";
 
 function DownloadButton(url: any) {
-
   return (
     <Button
       className="w-full my-4"

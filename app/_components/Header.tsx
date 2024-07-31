@@ -4,15 +4,18 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="fixed backdrop-blur-xl saturate-150 bg-background/30 h-14 z-10 flex items-center md:px-60 px-10 justify-between w-full">
-  
-      <div className="logo text-xl font-bold italic my-10">
-         <Link href={"/"}>DLFast</Link>
+    <header className="fixed top-0 left-0 right-0 h-14 bg-background/30 backdrop-blur-xl saturate-150 z-10 flex items-center justify-between px-10 md:px-60">
+      {/* Logo */}
+      <div className="text-xl font-bold italic">
+        <Link href="/">DLFast</Link>
       </div>
+
+      {/* Navigation and Mode Toggle */}
       <div className="flex items-center gap-4">
-        <Link href={"/faq"}>FAQ</Link> <ModeToggle />
+        <Link href="/faq">FAQ</Link>
+        <ModeToggle />
       </div>
-    </div>
+    </header>
   );
 }
 

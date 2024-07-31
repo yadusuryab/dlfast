@@ -1,6 +1,3 @@
-import fileDownload from "js-file-download";
-import axios from "axios";
-
 export const getMedia = async (media_url: string) => {
   const url = `https://instagram-scraper-api2.p.rapidapi.com/v1/post_info?code_or_id_or_url=${media_url}&include_insights=true`;
   const options = {
@@ -27,7 +24,7 @@ export const getShortCode = (url: string): string | null => {
   const storiesMatch = url.match(/\/stories\/(?:[^\/]+\/)?([^\/?]+)\/?$/);
   const generalMatch = url.match(/\/(?:p|reel|reels|tv)\/([^\/?]+)(?:\/|$)/);
 
-  if (url.includes('/stories/')) {
+  if (url.includes("/stories/")) {
     // Return the second item after '/stories/' if it's a stories URL
     return storiesMatch?.[1] || null;
   } else {

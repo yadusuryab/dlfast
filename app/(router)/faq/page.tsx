@@ -1,12 +1,12 @@
-import Faq from '@/app/_components/Faq'
-import React from 'react'
+import Faq from "@/app/_components/Faq";
+import React from "react";
 
-function page() {
+const Page = () => {
   return (
-    <div className="py-20 md:px-64 px-10 ">
-     <Faq/>
+    <div className="py-20 md:px-64 px-10">
+      <Faq />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default Page;

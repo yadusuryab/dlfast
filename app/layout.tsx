@@ -3,16 +3,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
-import Downloader from "./_components/Downloader";
 import Footer from "./_components/Footer";
-import Head from "next/head";
 import open from "../public/opengraph-image.png";
 import logo from "../public/apple-touch-icon.png";
 import android from "../public/android-chrome-192x192.png";
-
-import twitter from "./twitter-image.png";
-import { SpeakableSpecification, WithContext } from "schema-dts";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -61,7 +55,6 @@ export const metadata: Metadata = {
     title: "DLFast",
   },
   manifest: "/site.webmanifest",
-  themeColor: "#ffffff",
 };
 
 export default function RootLayout({

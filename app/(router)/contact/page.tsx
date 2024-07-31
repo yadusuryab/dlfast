@@ -1,18 +1,22 @@
 import Link from "next/link";
 import React from "react";
 
-function page() {
+const Page: React.FC = () => {
   return (
-    <div className="py-20 md:px-64 px-10 ">
-      <h2 className="text-xl font-bold">Contact US</h2>
-      <p>
+    <div className="py-20 px-10 md:px-64">
+      <h2 className="text-xl font-bold">Contact Us</h2>
+      <p className="mt-4">
         Do you want to know more about how we could help you? Don’t hesitate to
         get in touch with us.
       </p>
-      Contact us by email:{" "}
-      <Link href={"mailto:yadusurya666@gmail.com"} className="text-primary">yadusurya666@gmail.com</Link>
+      <p className="mt-4">
+        Contact us by email:{" "}
+        <Link href="mailto:yadusurya666@gmail.com" className="text-primary">
+          yadusurya666@gmail.com
+        </Link>
+      </p>
     </div>
   );
-}
+};
 
-export default page;
+export default Page;

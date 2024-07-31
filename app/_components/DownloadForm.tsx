@@ -1,15 +1,8 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import Image from "next/image";
-
 import React, { useState } from "react";
-import { getMedia, getShortCode } from "../Api/insta-api";
-import Loading from "./Loading";
-import { url } from "inspector";
-import { metadata } from "../layout";
-import Link from "next/link";
-// useRouter
+import { getShortCode } from "../Api/insta-api";
 import { useRouter } from "next/navigation";
 
 function DownloadForm() {
@@ -27,21 +20,18 @@ function DownloadForm() {
   };
 
   return (
-    <div>
-      <div className="flex bg-background/40 px-2 py-2 rounded-full backdrop-blur-md saturate-150">
-        <Input
-          placeholder={`Paste Instagram Link here.`}
-          onChange={(e) => {
-            setInstaurl(e.target.value);
-          }}
-          onKeyDown={handleKeyDown}
-          className="border-none "
-        />
-
-        <Button className="rounded-full" onClick={ChangePage}>
-          Download
-        </Button>
-      </div>
+    <div className="flex bg-background/40 px-2 py-2 rounded-full backdrop-blur-md saturate-150">
+      <Input
+        placeholder={`Paste Instagram Link here.`}
+        onChange={(e) => {
+          setInstaurl(e.target.value);
+        }}
+        onKeyDown={handleKeyDown}
+        className="border-none "
+      />
+      <Button className="rounded-full" onClick={ChangePage}>
+        Download
+      </Button>
     </div>
   );
 }
