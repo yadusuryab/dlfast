@@ -43,7 +43,7 @@ function Downloader() {
           <div className="text-center my-10">
             {/* <h1>https://www.instagram.com/p/C89zgECSTZo/?img_index=1</h1> */}
             <h1 className="text-lg font-bold ">Instagram Downloader</h1>
-            <h1>Download Instagram Videos, Photos, Reels, IGTV & carousel</h1>
+            <h2>Download Instagram Videos, Photos, Reels, IGTV & carousel</h2>
           </div>
           {tabitems.map((tab, index) => (
             <TabsContent value={tab.name} key={index}>

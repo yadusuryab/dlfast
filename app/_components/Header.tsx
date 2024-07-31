@@ -7,7 +7,7 @@ function Header() {
     <div className="fixed backdrop-blur-xl saturate-150 bg-background/30 h-14 z-10 flex items-center md:px-60 px-10 justify-between w-full">
   
       <div className="logo text-xl font-bold italic my-10">
-         <Link href={"/"}><h1>DLFast</h1></Link>
+         <Link href={"/"}>DLFast</Link>
       </div>
       <div className="flex items-center gap-4">
         <Link href={"/faq"}>FAQ</Link> <ModeToggle />
