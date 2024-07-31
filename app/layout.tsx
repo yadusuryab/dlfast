@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url:'./opengraph-image.png',
+        url:open.toString(),
         width: 800,
         height: 600,
         alt: "DLFast - Instagram Downloader",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
     description:
       "DLFast is a tool to help you with downloading Instagram Videos, Reels, Photos, IGTV & Albums. It's easy to use on any device, mobile, tablet, or computer.",
-    images: ["./twitter-image.png"],
+    images: [twitter.toString()],
   },
   appleWebApp: {
     capable: true,
