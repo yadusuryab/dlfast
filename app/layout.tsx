@@ -59,13 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels</title>
-        <meta
-          name="description"
-          content="DLFast is a tool to help you with Download Instagram Videos, Reels, Photos, IGTV & Albums. It’s easy to use on any device, mobile, tablet, or computer."
-        />
-
-        <script
+        <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -148,7 +142,7 @@ export default function RootLayout({
           }}
 
         />
-        <link rel="canonical" href="https://dlfast.vercel.app/en"></link>
+        <link rel="canonical" href="https://dlfast.vercel.app"></link>
         <link rel="alternate" hrefLang="x-default" href="https://dlfast.vercel.app"/>
 
       </Head>
