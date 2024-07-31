@@ -16,9 +16,9 @@ import {
   Sparkles,
 } from "lucide-react";
 import Faq from "./Faq";
-import copy from '../images/copy-link.png'
-import save from '../images/save.png'
-import download from '../images/download.png'
+import copy from '../../images/copy.png'
+import save from '../../images/save.png'
+import download from '../../images/download.png'
 
 function About() {
   return (
