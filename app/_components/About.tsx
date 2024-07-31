@@ -102,7 +102,7 @@ function About() {
             <StepCard
               key={index}
               stepNumber={index + 1}
-              imageUrl={step.img}
+              imageUrl={step.img.src}
               title={step.title}
               description={step.description}
             />
