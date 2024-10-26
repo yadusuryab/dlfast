@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 import { SitemapStream, streamToPromise } from 'sitemap';
 
 export async function GET() {
-  const sitemap = new SitemapStream({ hostname: 'https://dlfast.vercel.app' });
+  const sitemap = new SitemapStream({ hostname: 'https://www.gameskull.xyz' });
 
   // List of static routes
   const staticRoutes = [

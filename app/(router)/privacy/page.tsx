@@ -54,7 +54,7 @@ function page() {
           <p>
             <strong>Company</strong> (referred to as either &quot;the
             Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in
-            this Agreement) refers to DLFast.
+            this Agreement) refers to Gameskull FastDl.
           </p>
         </li>
         <li>
@@ -106,13 +106,13 @@ function page() {
         </li>
         <li>
           <p>
-            <strong>Website</strong> refers to DLFast, accessible from{" "}
+            <strong>Website</strong> refers to Gameskull FastDl, accessible from{" "}
             <a
-              href="dlfast.vercel.app"
+              href="www.gameskull.xyz"
               rel="external nofollow noopener"
               target="_blank"
             >
-              dlfast.vercel.app
+              www.gameskull.xyz
             </a>
           </p>
         </li>

@@ -7,7 +7,7 @@ function DownloadButton(url: any) {
   return (
     <Button
       className="w-full my-4"
-      onClick={() => handleDownload(url, `${url.media} - dlfast`)}
+      onClick={() => handleDownload(url, `${url.media} - Gameskull FastDl`)}
     >
       Download
     </Button>

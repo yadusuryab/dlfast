@@ -80,7 +80,7 @@ function About() {
   return (
     <div className="md:px-64 px-10 block mx-auto my-5">
       <div className="logo text-3xl font-bold italic my-10">
-        <h2>DLFast</h2>
+        <h2>Gameskull FastDl</h2>
       </div>
       <Card>
         <CardHeader>
