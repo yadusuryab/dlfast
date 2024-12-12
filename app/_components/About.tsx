@@ -11,6 +11,7 @@ import Faq from "./Faq";
 import copy from "../../public/copy-link.png";
 import save from "../../public/save.png";
 import download from "../../public/download.png";
+import Brand from "./Brand";
 
 const steps = [
   {
@@ -78,10 +79,8 @@ const featureDescriptions = [
 
 function About() {
   return (
-    <div className="md:px-64 px-10 block mx-auto my-5">
-      <div className="logo text-3xl font-bold italic my-10">
-        <h2>Gameskull FastDl</h2>
-      </div>
+    <div className="max-w-[800px] px-5 gap-4 grid  mx-auto my-5">
+     <Brand/>
       <Card>
         <CardHeader>
           <CardTitle>Instagram Videos and Photos Download</CardTitle>

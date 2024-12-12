@@ -27,8 +27,8 @@ const StepCard: React.FC<StepCardProps> = ({
   imageUrl,
 }) => {
   return (
-    <Card className={`w-full my-4 hover:scale-110 transition-transform ${className}`}>
-      <CardHeader>
+    <Card className={` w-full my-4 hover:ring-2  hover:ring-primary transition-transform ${className}`}>
+ <CardHeader>
         {stepNumber && (
           <Badge className="w-fit">Step {stepNumber}</Badge>
         )}
@@ -38,16 +38,19 @@ const StepCard: React.FC<StepCardProps> = ({
         <CardDescription>{description}</CardDescription>
       </CardHeader>
       {imageUrl && (
-        <CardContent className="m-0 p-0">
-          <Image
-            src={imageUrl}
-            alt={title}
-            className="rounded-b-xl"
-            width={400}
-            height={200}
-            layout="responsive" // Added layout for better responsiveness
-          />
-        </CardContent>
+      <CardContent className="m-0 p-0 rounded-b-lg  bg-black w-full ">
+      <div className="relative w-full h-[200px] overflow-hidden">
+        <Image
+          src={imageUrl}
+          alt={title}
+          className="object-contain"
+         
+          
+          layout="fill" // Ensures the image fills the container
+        />
+      </div>
+    </CardContent>
+    
       )}
     </Card>
   );

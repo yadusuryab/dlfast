@@ -22,8 +22,8 @@ const tabItems = [
 
 function Downloader() {
   return (
-    <div className="py-5 px-8 flex flex-wrap justify-center items-center gradient dark:gradient-dark min-h-[500px]">
-      <div className="flex flex-wrap justify-center w-full">
+    <div className="px-8 flex flex-wrap justify-center min-h-screen items-center gradient dark:gradient-dark ">
+      <div className="max-w-[500px] w-full">
         <Tabs defaultValue="video">
           {/* Tabs List */}
           <TabsList className="flex justify-evenly mx-2">

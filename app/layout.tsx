@@ -11,7 +11,7 @@ import android from "../public/android-chrome-192x192.png";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.gameskull.xyz"),
+  metadataBase: new URL("https://fastdl.gameskull.xyz"),
   title:
     "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
   description:
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Instagram Downloader - Download Instagram Video, Photos, IGTV & Reels",
     description:
       "Gameskull FastDl is a tool to help you with downloading Instagram Videos, Reels, Photos, IGTV & Albums. It's easy to use on any device, mobile, tablet, or computer.",
-    url: "https://www.gameskull.xyz",
+    url: "https://fastdl.gameskull.xyz",
     siteName: "Gameskull FastDl",
     locale: "en",
     type: "website",
@@ -81,7 +81,7 @@ export default function RootLayout({
                     "igram",
                     "igram.io",
                   ],
-                  url: "https://www.gameskull.xyz",
+                  url: "https://fastdl.gameskull.xyz",
                 },
                 {
                   "@type": "WebPage",
@@ -99,13 +99,13 @@ export default function RootLayout({
                   inLanguage: "th",
                   description:
                     "Gameskull FastDl is an tool to help you with Download Instagram Videos, Reels, Photos, IGTV & Albums. It&#039;s easy to use on any device, mobile, tablet, or computer.",
-                  url: "https://www.gameskull.xyz",
+                  url: "https://fastdl.gameskull.xyz",
                 },
                 {
                   "@type": "Organization",
                   name: "Gameskull FastDl",
                   alternateName: "Instagram downloader",
-                  url: "https://www.gameskull.xyz",
+                  url: "https://fastdl.gameskull.xyz",
                   email: "yadusurya666@gmail.com",
                   logo: logo.src,
                 },
@@ -123,7 +123,7 @@ export default function RootLayout({
                     "FastDl",
                     "FastDl APP",
                   ],
-                  url: "https://www.gameskull.xyz",
+                  url: "https://fastdl.gameskull.xyz",
                   image: android.src,
                   operatingSystem: "Windows, Linux, iOS, Android, OSX, macOS",
                   applicationCategory: "UtilitiesApplication",
@@ -151,11 +151,11 @@ export default function RootLayout({
             }),
           }}
         />
-        <link rel="canonical" href="https://www.gameskull.xyz"></link>
+        <link rel="canonical" href="https://fastdl.gameskull.xyz"></link>
         <link
           rel="alternate"
           hrefLang="x-default"
-          href="https://www.gameskull.xyz"
+          href="https://fastdl.gameskull.xyz"
         />
         <meta name="google-site-verification" content="jVW2L3Lpp6z747dZtOCYX4iAX7UE0gCp8xWmrVNZihc" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9427726908265759"
