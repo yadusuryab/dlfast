@@ -160,6 +160,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="jVW2L3Lpp6z747dZtOCYX4iAX7UE0gCp8xWmrVNZihc" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9427726908265759"
      crossOrigin="anonymous"></script>
+ 
       </head>
 
       <body className={inter.className}>

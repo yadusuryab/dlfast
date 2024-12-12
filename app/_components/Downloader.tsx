@@ -47,6 +47,17 @@ function Downloader() {
               <DownloadForm />
             </TabsContent>
           ))}
+          <div>
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-client="ca-pub-9427726908265759"
+            data-ad-slot="4803667946"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          ></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
         </Tabs>
       </div>
     </div>
