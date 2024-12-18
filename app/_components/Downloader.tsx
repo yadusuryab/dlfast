@@ -48,7 +48,7 @@ function Downloader() {
               <DownloadForm />
             </TabsContent>
           ))}
-         <AdBlock/>
+    
         </Tabs>
       </div>
     </div>
