@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Instagram Video Downloader
+
+An Instagram Video Downloader built with **Next.js** (App Router), **TypeScript**, **shadcn/ui**, **TailwindCSS**, and **RapidAPI**. This project allows users to download videos from Instagram by providing the video URL.
+
+## Features
+
+- **Next.js App Router** for advanced routing and server-side rendering.
+- **TypeScript** for type safety and improved developer experience.
+- **shadcn/ui** for reusable UI components.
+- **TailwindCSS** for rapid styling and responsive design.
+- **RapidAPI** for accessing Instagram video data.
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+- [Node.js](https://nodejs.org/) installed (v16 or later).
+- A RapidAPI account with access to an Instagram video downloader API.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project locally:
 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/instagram-video-downloader.git
+cd instagram-video-downloader
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Set Up Environment Variables
+
+Create a `.env.local` file in the root directory and add the following environment variables:
+```env
+NEXT_PUBLIC_RAPIDAPI_KEY=your_rapidapi_key
+```
+Replace `your_rapidapi_key` with your RapidAPI credentials.
+
+### 4. Run the Development Server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+instagram-video-downloader/
+├── app/               # Next.js App Router directory
+│   ├── layout.tsx     # Root layout file
+│   ├── page.tsx       # Home page
+│   └── api/           # API routes
+├── components/        # Reusable UI components
+├── styles/            # TailwindCSS styles
+├── utils/             # Utility functions
+├── public/            # Static assets
+├── .env.local         # Environment variables
+├── next.config.js     # Next.js configuration
+├── tailwind.config.js # TailwindCSS configuration
+├── tsconfig.json      # TypeScript configuration
+└── package.json       # Project metadata and dependencies
+```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. Enter the Instagram video URL in the input field.
+2. Click the "Download" button.
+3. The app fetches the video data from RapidAPI and provides a downloadable link.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To deploy the app, follow the Next.js deployment guides:
 
-## Deploy on Vercel
+- [Vercel](https://vercel.com/docs)
+- [Other Hosting Platforms](https://nextjs.org/docs/deployment)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes and push the branch.
+4. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [shadcn/ui](https://github.com/shadcn/ui)
+- [RapidAPI](https://rapidapi.com/)

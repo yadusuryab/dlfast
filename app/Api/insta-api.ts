@@ -3,7 +3,7 @@ export const getMedia = async (media_url: string) => {
   const options = {
     method: "GET",
     headers: {
-      "x-rapidapi-key": "0db19c1255msh6e7243e16920302p1a58e7jsndf82517cf406",
+      "x-rapidapi-key": `${process.env.NEXT_PUBLIC_RAPIDAPI_KEY}`,
       "x-rapidapi-host": "instagram-scraper-api2.p.rapidapi.com",
     },
   };
