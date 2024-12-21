@@ -23,8 +23,8 @@ Follow these steps to set up the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/instagram-video-downloader.git
-cd instagram-video-downloader
+git clone https://github.com/yadusuryab/dlfast.git
+cd dlfast
 ```
 
 ### 2. Install Dependencies
